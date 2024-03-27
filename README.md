@@ -25,11 +25,10 @@ pnpm dev
 Abra [http://localhost:3000](http://localhost:3000) no seu navegador para visualizar a aplicação em execução.
 
 ## Previos screens
-Telefone movel
 ![mobile phone demo](public/demo/iPhone-13-PRO.png)
 
-Tablet
+
 ![Tablet demo](public/demo/iPad-PRO-11.png)
 
-Laptop
+
 ![Laptop demo](public/demo/Macbook-Air.png)
