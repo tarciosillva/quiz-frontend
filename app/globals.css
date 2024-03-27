@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -16,14 +18,9 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.optionQuiz:hover .letter-hover {
+  background-color: #F6E7FF;
+  color: #A729F5;
 }
 
 @layer utilities {
@@ -31,3 +28,4 @@ body {
     text-wrap: balance;
   }
 }
+
